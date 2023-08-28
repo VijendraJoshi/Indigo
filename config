@@ -1,0 +1,11 @@
+const config = {
+  db: {
+    /* don't mention any sensitive info here, dummy only for demo */
+    host: "localhost",
+    user: "root",
+    password: "test123",
+    database: "indigo",
+    connectTimeout: 60000
+  },
+};
+module.exports = config;
